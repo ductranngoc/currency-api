@@ -32,6 +32,7 @@ This project provides a RESTful API to manage currencies and fetch exchange rate
 | Feature                 | Status      | Details                                        |  
 |-------------------------|-------------|------------------------------------------------|  
 | 📦 Swagger UI           | ✅ Enabled  | `/swagger-ui.html`                            |  
+| 🧾 API Logging          | 🚫 Not yet  | Optional to add with AOP or Interceptors      |  
 | 🌐 i18n Design          | 🚫 Included | Optional to add with `messages.properties`    |  
 | 🧰 Design Patterns (2+) | ✅ Used     | Factory (DTO), Strategy (Scheduler)           |  
 | 🐳 Docker Support       | ✅ Included | Dockerfile with port `8080` exposed           |  
