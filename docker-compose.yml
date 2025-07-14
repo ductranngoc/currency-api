@@ -3,3 +3,12 @@ services:
     build:
       context: .
     image: currency-api
+    container_name: currency-api
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    volumes:
+      - ./data:/data
+
+

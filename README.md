@@ -63,4 +63,13 @@ docker build -t currency-api .
 # Run container
 docker run -p 8080:8080 currency-api
 
+```
+
+### 🔨 With Docker Compose
+```bash
+# Build and Run application
+docker-compose up --build
+
+# Note: You cannot access h2-console when running the application in docker.
+
 
