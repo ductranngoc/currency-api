@@ -31,12 +31,12 @@ This project provides a RESTful API to manage currencies and fetch exchange rate
 
 | Feature                 | Status      | Details                                        |  
 |-------------------------|-------------|------------------------------------------------|  
-| 📦 Swagger UI           | ✅ Enabled  | `/swagger-ui.html`                           |  
-| 🌐 i18n Design          | 🚫 Included | Optional to add with `messages.properties`   |  
-| 🧰 Design Patterns (2+) | ✅ Used     | Factory (DTO), Strategy (Scheduler)            |  
+| 📦 Swagger UI           | ✅ Enabled  | `/swagger-ui.html`                            |  
+| 🌐 i18n Design          | 🚫 Included | Optional to add with `messages.properties`    |  
+| 🧰 Design Patterns (2+) | ✅ Used     | Factory (DTO), Strategy (Scheduler)           |  
 | 🐳 Docker Support       | ✅ Included | Dockerfile with port `8080` exposed           |  
 | 🛡 Global Error Handling| ✅ Included | Unified JSON error response                    |  
-| 🔐 AES/RSA Encryption   | ✅ AES only | Encryption utilities included                  |  
+| 🔐 AES/RSA Encryption   | ✅ AES only | Encryption utilities included                 |  
 
 
 ## 🚀 How to Run
