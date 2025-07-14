@@ -1,0 +1,5 @@
+services:
+  currency-app:
+    build:
+      context: .
+    image: currency-api
