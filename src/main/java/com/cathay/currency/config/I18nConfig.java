@@ -22,9 +22,9 @@ public class I18nConfig {
     @Bean
     MessageSource messageSource() {
         ReloadableResourceBundleMessageSource ms = new ReloadableResourceBundleMessageSource();
-        //ms.setBasename("classpath:messages");
         ms.setBasename("classpath:messages/message"); // point to messages/message.properties
         ms.setDefaultEncoding("UTF-8");
         return ms;
     }
+
 }

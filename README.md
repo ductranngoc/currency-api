@@ -19,26 +19,29 @@ This project provides a RESTful API to manage currencies and fetch exchange rate
 ## ✅ Core Features
 
 | Feature                           | Description                               |                                
-|---------------------------------- |--------------------------------------------------------------|  
-| 🗃 Currency DB maintenance        | CRUD APIs for managing currency codes and names              |  
+|---------------------------------- |-------------------------------------------------------------|  
+| 🗃 Currency DB maintenance        | CRUD APIs for managing currency codes and names             |  
 | 🌐 External API integration      | Calls OANDA exchange rate API for latest currency data       |  
 | 🔁 Data transformation           | Converts external API to new internal format with update time|                
 | 🕒 Scheduled synchronization     | Periodically pulls latest exchange data via scheduler        |                      
-| 📋 Sorted query by currency code | List curencies sorted by `code`                              |  
+| 📋 Sorted query by currency code | List curencies sorted by `code`                             |  
 | 🧪 Unit tests                    | JUnit tests for service logic                                |
+
+Note: You can access h2-console with link: `http://localhost:8080/h2-console`
 
 ## ✨ Optional Features Included
 
 | Feature                   | Status        | Details                                       |  
 |-------------------------  |-------------  |-----------------------------------------------|  
-| 📦 Swagger UI            | ✅ Enabled    | `/swagger-ui.html`                            |  
-| 🧾 API Logging           | ✅ Included   | Optional to add with AOP or Interceptors      |  
-| 🌐 i18n Design           | ✅ Included   | Optional to add with `messages.properties`    |  
-| 🧰 Design Patterns (2+)  | ✅ Used       | Factory (DTO), Strategy (Scheduler)           |  
+| 📦 Swagger UI            | ✅ Enabled    | `/swagger-ui.html`                           |  
+| 🧾 API Logging           | ✅ Included   | Implement to add with logger                   |  
+| 🌐 i18n Design           | ✅ Included   | Optional to add with `messages.properties`   |  
+| 🧰 Design Patterns (2+)  | ✅ Used       | Factory (DTO), Strategy (Scheduler)            |  
 | 🐳 Docker Support        | ✅ Included   | Dockerfile with port `8080` exposed           |  
-| 🛡 Global Error Handling  | ✅ Included   | Unified JSON error response                   |  
-| 🔐 AES/RSA Encryption    | ✅ AES only   | Encryption utilities included                 |  
+| 🛡 Global Error Handling | ✅ Included   | Unified JSON error response                    |  
+| 🔐 AES/RSA Encryption    | ✅ AES only   | Encryption utilities included                  |  
 
+Note: You can access Swagger UI with link: `http://localhost:8080/swagger-ui/index.html`
 
 ## 🚀 How to Run
 
@@ -70,6 +73,5 @@ docker run -p 8080:8080 currency-api
 # Build and Run application
 docker-compose up --build
 
-# Note: You cannot access h2-console when running the application in docker.
 
 
